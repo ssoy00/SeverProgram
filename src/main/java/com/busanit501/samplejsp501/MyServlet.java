@@ -18,6 +18,7 @@ public class MyServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
         out.println("<h1>" + "내가 만든 MyServlet 파일에서 답보내기 연습중." + "</h1>");
+        out.println("<h1>" + "내가 만든 MyServlet 파일에서 답보내기 연습중." + "</h1>");
         out.println("</body></html>");
     }
 }
